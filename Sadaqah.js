@@ -4,7 +4,7 @@
 
 const API_AZKAR = 'https://raw.githubusercontent.com/rn0x/Adhkar-json/master/adhkar.json';
 const API_RECITERS = 'https://mp3quran.net/api/v3/reciters?language=ar';
-const HERO_IMAGE_PATH = 'file:///C:/Users/orbitHHHH/.gemini/antigravity/brain/8586e74f-5dcf-4359-ab71-7c03fe4c033b/islamic_3d_hero_1770308420829.png';
+const HERO_IMAGE_PATH = 'islamic_3d_hero_1770308420829.png';
 
 const elements = {
     grid: document.getElementById('azkar-container'),
@@ -644,3 +644,4 @@ function updateThemeIcon(theme) {
 
 document.addEventListener('DOMContentLoaded', init);
 window.loadReciters = loadReciters;
+
