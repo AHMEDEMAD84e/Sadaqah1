@@ -644,4 +644,3 @@ function updateThemeIcon(theme) {
 
 document.addEventListener('DOMContentLoaded', init);
 window.loadReciters = loadReciters;
-
